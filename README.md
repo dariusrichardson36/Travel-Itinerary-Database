@@ -28,8 +28,6 @@ This project is a relational travel itinerary database built in MySQL Workbench.
 | `Inserting Data.sql` | Populates tables with sample data |
 | `Queries.sql` | Includes JOINs, filters, grouping, subqueries, etc. |
 | `View Creation.sql` | Demonstrates SQL views for simplified access |
-| `EER Diagram` | Visual overview of entities & relationships |
-| `Relational Model Diagram` | Logical schema design (1NF–3NF applied) |
 
 ---
 
