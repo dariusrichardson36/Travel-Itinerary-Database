@@ -52,5 +52,5 @@ Add screenshots here if you'd like:
 ## 📫 Contact
 
 **Darius Richardson**  
-🔗 [LinkedIn](https://www.linkedin.com/in/darius-richardson-ga-tech)
+🔗 [LinkedIn](https://www.linkedin.com/in/darius-richardson-ga-tech)   
 📧 [Email Me](mailto:darius.richardson36@yahoo.com)
