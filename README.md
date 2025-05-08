@@ -42,13 +42,6 @@ This project is a relational travel itinerary database built in MySQL Workbench.
 
 ---
 
-## 📸 Visual Aids
-
-Add screenshots here if you'd like:
-
-
----
-
 ## 📫 Contact
 
 **Darius Richardson**  
