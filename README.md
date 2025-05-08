@@ -42,6 +42,20 @@ This project is a relational travel itinerary database built in MySQL Workbench.
 
 ---
 
+## 📸 Visual Aids
+
+### 🧩 EER Diagram
+![EER Diagram](./assets/Screenshots/ER & Relational Model-Modified EER Diagram.drawio.png)
+
+### 📊 Relational Schema
+![Relational Schema](./assets/Screenshots/Relational_Model.png)
+
+### 🧪 Sample Query Result
+![Query Example](./assets/Screenshots/QueryExample.png)
+
+
+---
+
 ## 📫 Contact
 
 **Darius Richardson**  
