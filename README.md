@@ -45,14 +45,22 @@ This project is a relational travel itinerary database built in MySQL Workbench.
 ## 📸 Visual Aids
 
 ### 🧩 EER Diagram
-![EER Diagram](./assets/Screenshots/ER & Relational Model-Modified EER Diagram.drawio.png)
+![EER Diagram](./assets/Screenshots/EER_Diagram.png)
 
 ### 📊 Relational Schema
 ![Relational Schema](./assets/Screenshots/Relational_Model.png)
 
-### 🧪 Sample Query Result
-![Query Example](./assets/Screenshots/QueryExample.png)
+### 🧪 View Example Result
+![Query Example](./assets/Screenshots/View1.png)
 
+### 🧪 View Example Result
+![Query Example](./assets/Screenshots/View2.png)
+
+### 🧪 View Example Result
+![Query Example](./assets/Screenshots/View3.png)
+
+### 🧪 View Example Result
+![Query Example](./assets/Screenshots/View4.png)
 
 ---
 
