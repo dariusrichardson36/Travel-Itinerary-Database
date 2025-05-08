@@ -50,16 +50,16 @@ This project is a relational travel itinerary database built in MySQL Workbench.
 ### 📊 Relational Schema
 ![Relational Schema](./assets/Screenshots/Relational_Model.png)
 
-### 🧪 View Example Result
+### 🧪 View 1 Example
 ![Query Example](./assets/Screenshots/View1.png)
 
-### 🧪 View Example Result
+### 🧪 View 2 Example
 ![Query Example](./assets/Screenshots/View2.png)
 
-### 🧪 View Example Result
+### 🧪 View 3 Example
 ![Query Example](./assets/Screenshots/View3.png)
 
-### 🧪 View Example Result
+### 🧪 View 4 Example
 ![Query Example](./assets/Screenshots/View4.png)
 
 ---
