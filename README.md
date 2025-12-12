@@ -1,13 +1,26 @@
 # 🧳 Travel Itinerary Management Database
+A relational travel itinerary management system built using MySQL Workbench. The database models travelers, trips, destinations, attractions, and reviews using a fully normalized schema with ER diagrams, relational design, and advanced SQL queries.
 
-This project is a relational travel itinerary database built in MySQL Workbench. It models users, trip plans, attractions, and reviews using a fully normalized schema with foreign keys, entity-relationship diagrams, and advanced SQL queries.
+This project simulates the backend database of a travel-planning platform where users can create trips, schedule visits to attractions, and leave reviews based on their travel experience.
 
 ---
 
 ## 📐 ER Design & Structure
+- Designed an Enhanced ER (EER) diagram to capture relationships between travelers, trips, destinations, attractions, and reviews.
+- Converted the conceptual model into a normalized relational schema (3NF) using primary keys, foreign keys, associative tables, and integrity constraints.
+- Ensures consistent, scalable, and query-efficient storage for itinerary management.
 
-- Designed an Enhanced ER (EER) model to capture core relationships between users, destinations, trip plans, and travel attractions.
-- Transformed the EER diagram into a normalized relational schema with primary keys, foreign keys, and associative tables.
+---
+
+## 🧩 Schema at a Glance
+| Table               | Description                                            |
+| ------------------- | ------------------------------------------------------ |
+| **User**            | Stores traveler information (name, email, preferences) |
+| **Trip**            | Contains destination, travel dates, and trip metadata  |
+| **Attraction**      | Points of interest at each destination                 |
+| **Destination**     | Cities/countries linked to attractions and trips       |
+| **Trip_Attraction** | Associative table linking planned attractions to trips |
+| **Review**          | User ratings and comments for visited attractions      |
 
 ---
 
