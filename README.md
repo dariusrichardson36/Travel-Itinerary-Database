@@ -1,7 +1,7 @@
 # 🧳 Travel Itinerary Management Database
 A relational travel itinerary management system built using MySQL Workbench. The database models travelers, trips, destinations, attractions, and reviews using a fully normalized schema with ER diagrams, relational design, and advanced SQL queries.
 
-This project simulates the backend database of a travel-planning platform where users can create trips, schedule visits to attractions, and leave reviews based on their travel experience.
+This project simulates the backend database of a travel-planning platform where users can create trips, schedule visits to attractions, and leave reviews based on their travel experience. This project demonstrates my ability to design normalized relational databases, create ER diagrams, and implement complex SQL queries.
 
 ---
 
@@ -25,10 +25,14 @@ This project simulates the backend database of a travel-planning platform where 
 ---
 
 ## 🛠️ Technologies Used
-
-- **Database**: MySQL Workbench
-- **Language**: SQL
-- **Tools**: ER Modeling, Relational Design, Views, Joins, Aggregation
+- **Database:** MySQL Workbench
+- **Language:** SQL
+- **Tools & Concepts:**
+  - EER Modeling
+  - Relational Schema Design
+  - Foreign Keys & Constraints
+  - JOINs, Subqueries, Aggregation
+  - Views for simplified data access
 
 ---
 
@@ -44,12 +48,41 @@ This project simulates the backend database of a travel-planning platform where 
 
 ---
 
-## 🔍 Sample Queries Include
+## 🔍 Example Query
 
-- Nested subqueries
-- INNER/LEFT JOINs across 3+ tables
-- Grouping with HAVING conditions
-- Views for filtered destination data
+Here is one of the advanced multi-table queries from the project:
+```bash
+⭐ Example: Top-rated attractions in a user’s upcoming trips
+SELECT a.name AS attraction_name,
+       d.city,
+       d.country,
+       AVG(r.rating) AS avg_rating
+FROM Trip t
+JOIN Trip_Attraction ta ON t.trip_id = ta.trip_id
+JOIN Attraction a       ON ta.attraction_id = a.attraction_id
+JOIN Destination d      ON a.destination_id = d.destination_id
+JOIN Review r           ON r.attraction_id = a.attraction_id
+WHERE t.user_id = 101
+  AND t.start_date > CURDATE()
+GROUP BY a.name, d.city, d.country
+HAVING AVG(r.rating) >= 4.5
+ORDER BY avg_rating DESC;
+```
+
+This query demonstrates:
+- Multi-table JOINs
+- Filtering on future trips
+- Aggregation with HAVING
+- User-personalized recommendations
+
+---
+
+## 🧪 Sample Query Types Included
+- Nested and correlated subqueries
+- Multi-level JOIN operations
+- Aggregations with GROUP BY + HAVING
+- Views for reusable data summaries
+- Complex filtering across multiple dimensions
 
 ---
 
@@ -75,8 +108,6 @@ This project simulates the backend database of a travel-planning platform where 
 
 ---
 
-## 📫 Contact
-
-**Darius Richardson**  
-🔗 [LinkedIn](https://www.linkedin.com/in/darius-richardson-ga-tech)   
-📧 [Email Me](mailto:darius.richardson36@yahoo.com)
+## 📝 License
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for details.
