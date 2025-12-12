@@ -25,14 +25,23 @@ This project simulates the backend database of a travel-planning platform where 
 ---
 
 ## 🛠️ Technologies Used
-- **Database:** MySQL Workbench
-- **Language:** SQL
-- **Tools & Concepts:**
-  - EER Modeling
-  - Relational Schema Design
-  - Foreign Keys & Constraints
-  - JOINs, Subqueries, Aggregation
-  - Views for simplified data access
+### Database:
+
+|  |
+| --- |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" /><br>MySQL Workbench |
+
+### Language:
+
+|  |
+| --- |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" /><br>SQL |
+
+### Tools & Concepts:
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| 🧩<br>EER Modeling | 🗂️<br>Relational Schema Design | 🔗<br>Foreign Keys & Constraints | 🔍<br>JOINs & Subqueries | 📊<br>Views & Aggregation |
 
 ---
 
